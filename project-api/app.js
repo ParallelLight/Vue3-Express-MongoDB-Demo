@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 // 连接数据库
-var mongoDB = require("./db/mongodb");
+// var mongoDB = require("./db/mongodb");
 
 // 引入页面
 var homeRouter = require('./routes/home');

@@ -28,6 +28,7 @@ const isDark = ref(useDark());
         </div>
         <div class="header-menu-flex-grow"></div>
         <el-menu-item index="/">Home</el-menu-item>
+        <el-menu-item index="/components">Components</el-menu-item>
         <el-menu-item index="/search">Search</el-menu-item>
         <el-menu-item index="/statistics">Statistics</el-menu-item>
         <el-menu-item index="/download">Download</el-menu-item>
@@ -53,6 +54,7 @@ const isDark = ref(useDark());
         <el-sub-menu>
           <template #title><font-awesome-icon :icon="['fas', 'bars']" /></template>
           <el-menu-item index="/">Home</el-menu-item>
+          <el-menu-item index="/components">Components</el-menu-item>
           <el-menu-item index="/search">Search</el-menu-item>
           <el-menu-item index="/statistics">Statistics</el-menu-item>
           <el-menu-item index="/download">Download</el-menu-item>
